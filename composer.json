@@ -1,0 +1,12 @@
+{
+    "name": "afiq/test",
+    "require": {
+        "twbs/bootstrap": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "afiqhamzah",
+            "email": "afiq.1991@gmail.com"
+        }
+    ]
+}
