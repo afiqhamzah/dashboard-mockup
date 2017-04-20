@@ -1,0 +1,65 @@
+body{
+  background-color: grey;
+}
+
+.header {
+  background-color: #005C33;
+  height: 3.2em;
+  color: white;
+  padding: 0.5em;
+  text-decoration: underline;
+}
+
+.header--nav {
+  background-color: #004526;
+}
+
+.box {
+  background-color: white;
+  height: 18em;
+  border: 0.5px solid #E1E1E1;
+}
+
+.minibox {
+  background-color: #F2F2F2;
+  height: 12em;
+  border: 0.5px solid #E1E1E1;
+  -webkit-box-shadow: 0 4px 6px -6px #222;
+  -moz-box-shadow: 0 4px 6px -6px #222;
+  box-shadow: 0 4px 6px -6px #222;
+}
+
+.box__title {
+  height: 3.8em;
+  color: white;
+  padding: 0.7em
+}
+
+.box__title--placeholder {
+color: black;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5e5e5+0,ffffff+100&0.76+6,1+100 */
+background: -moz-linear-gradient(45deg, rgba(229,229,229,0.76) 0%, rgba(231,231,231,0.76) 6%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(229,229,229,0.76) 0%,rgba(231,231,231,0.76) 6%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(229,229,229,0.76) 0%,rgba(231,231,231,0.76) 6%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2e5e5e5', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.box__title--orange {
+  background-color: #EF8031;
+}
+
+.box__title--indigo {
+  background-color: #333491;
+}
+
+.box__title--green {
+  background-color: #91BD4A;
+}
+
+.box__title--blue {
+  background-color: #01A8DD;
+}
+
+.box__title--darkorange {
+  background-color: #D08B14;
+}
