@@ -14,21 +14,15 @@ body{
   background-color: #004526;
 }
 
-.cell{
-  border-right: 1px solid #E1E1E1;
-  margin:0;
-  padding:0.9em;
-}
-
 .box {
   background-color: white;
-  height: 18em;
+  height: 20em;
   border: 0.5px solid #E1E1E1;
 }
 
 .minibox {
   background-color: #F2F2F2;
-  height: 12em;
+  height: 13.34em;
   border: 0.5px solid #E1E1E1;
   -webkit-box-shadow: 0 4px 6px -6px #222;
   -moz-box-shadow: 0 4px 6px -6px #222;
@@ -68,4 +62,65 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2e5e5e5', e
 
 .box__title--darkorange {
   background-color: #D08B14;
+}
+
+.cell{
+  padding-top:0.9em;
+  border-right: 1px solid #E1E1E1;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+
+
+/*table styling*/
+
+table.table-simple table,
+table.table-simple th,
+table.table-simple td {
+  border: 1px solid #D8D8D2;
+  padding: 0.2em;
+  text-align: center;
+}
+
+table.table-fancy table,
+table.table-fancy th,
+table.table-fancy td {
+  padding: 0.4em;
+  text-align: right;
+  font-size: 0.77em;
+  border:0.2em solid white;
+}
+
+.table-fancy__cell--blueBG{
+  background-color: #C8EAF4;
+  color: #67A9CE;
+}
+
+.table-fancy__cell--whiteBG{
+  background-color: white;
+}
+
+.table-fancy__cell--brownBG{
+  background-color: #E9E0D7;
+}
+
+.table-fancy__cell--brownFont{
+  color: #987D60;
+}
+
+.table-fancy__cell--greyBG{
+  background-color: #F2F2F2;
+  font-weight: bold;
+}
+
+.table-fancy__cell--redBG{
+  color: #A73137;
+  background-color: #F2D4D4;
+  font-weight: bold;
+}
+
+.table-fancy__cell--darkBrownBG{
+  color: white;
+  background-color: #736356;
 }
