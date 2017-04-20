@@ -111,11 +111,110 @@
               </div>
               <div class="row">
                 <div class="col-md-6 cell">
-                  <span>OVERALL</span>
-                  
+                  <div class="row">
+                    <div class="col-md-12">
+                      OVERALL
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="pull-right" style="padding-bottom:1.3em;">
+                          Planned sale
+                      </div>
+                    </div>
+                    <div class="col-xs-2">
+                      Peninsular
+                    </div>
+                    <div class="col-xs-9">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="28"
+                        aria-valuemin="0" aria-valuemax="100" style="width:28%">
+                          28
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-1">
+                      <span>250</span>
+                    </div>
+                    <div class="col-xs-2">
+                      Sabah
+                    </div>
+                    <div class="col-xs-9">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100" style="width:12%">
+                          12
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-1">
+                      100
+                    </div>
+                    <div class="col-xs-2">
+                      Sarawak
+                    </div>
+                    <div class="col-xs-9">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100" style="width:17%">
+                          7
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-1">
+                      40
+                    </div>
+                  </div>
                 </div>
                 <div class="col-md-6 cell">
                   <span>LOCK-IN</span>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <div class="pull-right" style="padding-bottom:1.3em;">
+                          Lock-in secured
+                      </div>
+                    </div>
+                    <div class="col-xs-2">
+                      Peninsular
+                    </div>
+                    <div class="col-xs-9">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="28"
+                        aria-valuemin="0" aria-valuemax="100" style="width:8%">
+                          0
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-1">
+                      <span>208</span>
+                    </div>
+                    <div class="col-xs-2">
+                      Sabah
+                    </div>
+                    <div class="col-xs-9">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100" style="width:8%">
+                          0
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-1">
+                      11
+                    </div>
+                    <div class="col-xs-2">
+                      Sarawak
+                    </div>
+                    <div class="col-xs-9">
+                      <div class="progress">
+                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70"
+                        aria-valuemin="0" aria-valuemax="100" style="width:8%">
+                          0
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-xs-1">
+                      8
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
