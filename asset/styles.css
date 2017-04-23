@@ -29,10 +29,16 @@ body{
   box-shadow: 0 4px 6px -6px #222;
 }
 
+.minibox__title{
+  height: 2.6em;
+  color: white;
+  padding: 0.7em;
+}
+
 .box__title {
   height: 3.8em;
   color: white;
-  padding: 0.7em
+  padding: 0.7em;
 }
 
 .box__title--placeholder {
@@ -92,6 +98,77 @@ table.table-fancy td {
   border:0.2em solid white;
 }
 
+table.table-aside table{
+  margin: 0;
+}
+
+table.table-aside th{
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  text-align: center;
+  font-size: 0.7em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+table.table-aside td {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bold;
+  padding-top: 1.2em;
+  padding-bottom: 1.2em;
+  border-right:0.2em solid #CCCCCC;
+}
+
+.table-aside__cell--red {
+  background-color: #FFCCCC;
+  color: #993333;
+}
+
+.table-aside__cell--redblack {
+  background-color: #FFCCCC;
+  color: black;
+}
+
+thead {
+  color:white;
+}
+
+.table-aside__cell--darkbrown{
+  background-color: #544741;
+}
+
+.table-aside__cell--brown{
+  background-color: #736356;
+}
+
+.table-aside__cell--aqua{
+  background-color: #01A89E;
+}
+
+.table-aside__cell--darkpink{
+  background-color: #9F005D;
+}
+
+.table-aside__cell--pink{
+  background-color: #B1337D;
+}
+
+.table-aside__cell--darkgreen{
+  background-color: #006837;
+}
+
+.table-aside__cell--green{
+  background-color: #348660;
+}
+
+.table-aside__cell--beige{
+  background-color: #F0F1F0;
+  color: black;
+}
+
 .table-fancy__cell--blueBG{
   background-color: #C8EAF4;
   color: #67A9CE;
@@ -123,4 +200,92 @@ table.table-fancy td {
 .table-fancy__cell--darkBrownBG{
   color: white;
   background-color: #736356;
+}
+
+.caption {
+  font-size: 0.9em;
+  color:white;
+  margin-right:0.2em;
+}
+
+.caption--small{
+  font-size: 0.8em;
+}
+
+.caption--green {
+  background-color: #91BD4A;
+  color: white;
+}
+
+.caption--indigo {
+  background-color: #333491;
+}
+
+.caption--blue {
+  background-color: #01A8DD;
+}
+
+.border-bottom{
+  border-bottom: 1.5px solid #E1E1E1;
+}
+
+.icon--red {
+  color: #F5825A;
+}
+
+.icon--darkred{
+  color: #D85323;
+}
+
+.icon--darkgreen {
+  color: #097F3E;
+}
+
+.icon--green {
+  color: #A0DCC0;
+}
+
+.icon--grey {
+  color: #D7D8D8;
+}
+
+table.table-invi {
+  font-size: 0.9em;
+}
+
+.bold{
+  font-size: 0.95em;
+  font-weight: bold;
+}
+
+.square_label {
+  background-color: #972788;
+  color: white;
+  font-size: 0.81em;
+  padding: 1.5px;
+}
+
+.badge{
+  display:inline;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top:1px;
+  padding-bottom: 1px;
+  margin-right: 3px;
+  background-color: #0071BC;
+}
+
+.badge--lblue{
+  background-color: #C8EAF4;
+  color: #5AA0C9;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.label-indigo{
+  background-color: #9D298C
+}
+
+.label-pink{
+  background-color: #E8177D;
 }

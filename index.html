@@ -4,6 +4,7 @@
     <meta charset="utf-9">
     <title>Dashboard</title>
     <link rel="stylesheet" href="vendor/twbs/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="vendor/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="asset/styles.css">
   </head>
   <body>
@@ -12,6 +13,7 @@
       <div class="row">
         <div class="col-md-9 text-left header">
           WEEKLY DASHBOARD
+          <span class="pull-right" style="color:white;"><i class="fa fa-calendar fa-2x" style="margin-right: 10px;"></i>8W 2016</span>
         </div>
         <div class="hidden-xs col-md-3 text left header header--nav">
           Received letter for award for Batang Lupar Project
@@ -107,7 +109,7 @@
                 <div class="col-md-2 box__title box__title--green">
                   SALES
                 </div>
-                <div class="col-md-10 box__title box__title--placeholder">YTD Total Sales: Slightly below plan due to unpredictable weather</div>
+                <div class="col-md-10 box__title box__title--placeholder"><span style="margin-right:5px;"><i class="fa fa-exclamation-triangle fa-2x icon--darkred"></i></span>YTD Total Sales: Slightly below plan due to unpredictable weather</div>
               </div>
               <div class="row">
                 <div class="col-md-6 cell">
@@ -226,7 +228,7 @@
                 <div class="col-md-2 box__title box__title--indigo">
                   PADDY PROCUREMENT
                 </div>
-                <div class="col-md-10 box__title box__title--placeholder">Private millers has started competing actively in the market due to the implementation of actual grading pemutuan sebenar</div>
+                <div class="col-md-10 box__title box__title--placeholder"><span style="margin-right: 3px;"><i class="fa fa-check-square-o fa-2x icon--darkgreen"></i></span>Private millers has started competing actively in the market due to the implementation of actual grading pemutuan sebenar</div>
               </div>
               <div class="row">
                 <div class="col-md-3 cell">
@@ -347,7 +349,7 @@
                 <div class="col-md-2 box__title box__title--blue">
                   RICE STOCK POSITION
                 </div>
-                <div class="col-md-10 box__title box__title--placeholder">Trading stock (import + local) turnover is averaging at xx months [xx1K/one month sales (xxK MT)], is higher than the ideal position of x month</div>
+                <div class="col-md-10 box__title box__title--placeholder"><span style="margin-right:5px; padding-bottom:2em;"><i class="fa fa-exclamation-triangle fa-2x icon--darkred"></i></span>Trading stock (import + local) turnover is averaging at xx months [xx1K/one month sales (xxK MT)], is higher than the ideal position of x month</div>
               </div>
               <div class="row">
                 <div class="col-md-6 cell">
@@ -473,34 +475,129 @@
           <div class="row">
             <div class="col-md-12 minibox">
               <div class="row">
-                <div class="col-md-12 box__title box__title--darkorange">
-                  OPERATION KEY HIGHLIGHTS
+                <div class="col-md-12 minibox__title box__title--darkorange">
+                  <span>OPERATION KEY HIGHLIGHTS</span>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
-                  table
+                <div class="col-md-12 border-bottom">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <span class="fa-stack fa-fw icon--red">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                    <div class="col-md-10">
+                      <span class="caption caption--green">SALES</span><span class="caption--small">is slightly below plan due to current unpredictable weather</span>
+                    </div>
+                  </div></div>
+                <div class="col-md-12 border-bottom">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <span class="fa-stack fa-fw icon--green">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-envelope-o"></i>
+                      </span>
+                    </div>
+                    <div class="col-md-10">
+                      <span class="caption caption--indigo">PROCUREMENT</span><span class="caption--small">ur procurement is still in line with out plan.</span>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                  table
+                <div class="col-md-12">
+                  <div class="row">
+                    <div class="col-md-1">
+                      <span class="fa-stack fa-fw icon--red">
+                        <i class="fa fa-circle-thin fa-stack-2x"></i>
+                        <i class="fa fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                    <div class="col-md-10">
+                      <span class="caption caption--blue">STOCK</span><span class="caption--small">Current stock position is now relatively high to additional purchase of local rice for stockpile</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div class="row">
             <div class="col-md-12 minibox">
               <div class="row">
-                <div class="col-md-12 box__title box__title--darkorange">
+                <div class="col-md-12 minibox__title box__title--darkorange">
                   REPORTABLE EVENTS
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
-                  table
+                <div class="col-md-6" style="border-bottom: 1px solid #E1E1E1;">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">1</span><span>LEGAL</span>
+                        </div>
+                        <div class="col-md-6" style="z-index:1;">
+                          <span class="label label-indigo" style="white-space:nowrap;">Distribution Rights</span>
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-home" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-md-6" style="border-left: 1px solid #E1E1E1; border-bottom: 1px solid #E1E1E1;">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">0</span><span>FINE/PENALTY</span>
+                        </div>
+                        <div class="col-md-6">
+                          <!-- for new messages -->
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-md-6">
-                  table
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">0</span><span>ISSUE</span>
+                        </div>
+                        <div class="col-md-6">
+                          <!-- for new messages -->
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6" style="border-left: 1px solid #E1E1E1">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">0</span><span>FRAUD</span>
+                        </div>
+                        <div class="col-md-6">
+                          <!-- for new messages -->
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-money" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -509,16 +606,81 @@
           <div class="row">
             <div class="col-md-12 minibox">
               <div class="row">
-                <div class="col-md-12 box__title box__title--darkorange">
+                <div class="col-md-12 minibox__title box__title--darkorange">
                   STAFF MATTERS
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
-                  table
+                <div class="col-md-6" style="border-bottom: 1px solid #E1E1E1;">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">2</span><span style="white-space: nowrap;">END CONTRACT</span>
+                        </div>
+                        <div class="col-md-6" style="z-index:1;">
+                          <span class="label label-pink" style="white-space:nowrap;">Mohd Nazrol Zawawi</span><br>
+                          <span class="label label-pink" style="white-space:nowrap;">Azman bin Nazman</span>
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey" ><i class="fa fa-hourglass-end " aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+                <div class="col-md-6" style="border-left: 1px solid #E1E1E1; border-bottom: 1px solid #E1E1E1;">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">0</span><span style="white-space:nowrap;">CONT RENEWAL</span>
+                        </div>
+                        <div class="col-md-6">
+                          <!-- for new messages -->
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-handshake-o" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
                 <div class="col-md-6">
-                  table
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">0</span><span>Hiring</span>
+                        </div>
+                        <div class="col-md-6">
+                          <!-- for new messages -->
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-id-card-o" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6" style="border-left: 1px solid #E1E1E1">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <span class="badge">0</span><span>Hiring</span>
+                        </div>
+                        <div class="col-md-6">
+                          <!-- for new messages -->
+                        </div>
+                        <div class="col-md-6">
+                          <span class="fa fa-4x icon--grey"><i class="fa fa-users" aria-hidden="true"></i></span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -527,16 +689,16 @@
           <div class="row">
             <div class="col-md-12 minibox">
               <div class="row">
-                <div class="col-md-12 box__title box__title--darkorange">
+                <div class="col-md-12 minibox__title box__title--darkorange">
                   GOVERNMENT MEETING
                 </div>
               </div>
-              <div class="row">
+              <div class="row" style="margin-top: 4em; margin-left: 2em;">
                 <div class="col-md-6">
-                  table
+                  <span class="badge badge--lblue">No Meeting</span>
                 </div>
                 <div class="col-md-6">
-                  table
+                  <i class="fa fa-calendar fa-5x icon--grey" aria-hidden="true"></i>
                 </div>
               </div>
             </div>
@@ -545,17 +707,70 @@
           <div class="row">
             <div class="col-md-12 minibox">
               <div class="row">
-                <div class="col-md-12 box__title box__title--darkorange">
+                <div class="col-md-12 minibox__title box__title--darkorange">
                   GOVERNMENT OWING IN RM (Million)
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
-                  table
-                </div>
-                <div class="col-md-6">
-                  table
-                </div>
+                <table class="table-aside">
+                  <thead>
+                    <tr>
+                      <th rowspan="2"></th>
+                      <th class="table-aside__cell--darkbrown" colspan="2">Paddy Rice</th>
+                      <th class="table-aside__cell--aqua" rowspan="2">Forex Impact <br> 2015</th>
+                      <th class="table-aside__cell--darkpink" colspan="3">GSR</th>
+                      <th class="table-aside__cell--darkgreen" colspan="2">SSHP S/FALL</th>
+                      <th class="table-aside__cell--beige" rowspan="2">TOTAL</th>
+                    </tr>
+                    <tr>
+                      <th class="table-aside__cell--brown">2014</th>
+                      <th class="table-aside__cell--brown">2015</th>
+                      <th class="table-aside__cell--pink">2009-2012</th>
+                      <th class="table-aside__cell--pink">2015</th>
+                      <th class="table-aside__cell--pink">Beras Petani</th>
+                      <th class="table-aside__cell--green">2015</th>
+                      <th class="table-aside__cell--green">2016</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="table-aside__cell--redblack">
+                      <td>OWING</td>
+                      <td>12.4</td>
+                      <td>14.9</td>
+                      <td>17.4</td>
+                      <td>5.1</td>
+                      <td>39.2</td>
+                      <td>0.3</td>
+                      <td>-</td>
+                      <td>62.1</td>
+                      <td>151.4</td>
+                    </tr>
+                    <tr>
+                      <td>RECEIVED</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>38.9</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>-</td>
+                      <td>38.9</td>
+                    </tr>
+                    <tr class="table-aside__cell--red">
+                      <td>BALANCE</td>
+                      <td>12.4</td>
+                      <td>14.9</td>
+                      <td>17.4</td>
+                      <td>5.1</td>
+                      <td>0.3</td>
+                      <td>0.3</td>
+                      <td>-</td>
+                      <td>62.1</td>
+                      <td>112.5</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
@@ -563,16 +778,48 @@
           <div class="row">
             <div class="col-md-12 minibox">
               <div class="row">
-                <div class="col-md-12 box__title box__title--darkorange">
+                <div class="col-md-12 minibox__title box__title--darkorange">
                   FOREX
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-6">
-                  table
+                <div class="col-md-7" style="border-right:1px solid #E1E1E1">
+                  <table class="table-invi">
+                    <tbody>
+                      <tr>
+                        <td>Contracted purchase</td>
+                        <td class="bold">970</td>
+                      </tr>
+                      <tr>
+                        <td>Hedged (USD Million)</td>
+                        <td class="bold">970</td>
+                      </tr>
+                      <tr>
+                        <td>Covered</td>
+                        <td class="bold">100%</td>
+                      </tr>
+                      <tr>
+                        <td>Hedging Range (RM/USD)</td>
+                        <td class="bold">RM 4.2030 - RM 4.4383</td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
-                <div class="col-md-6">
-                  table
+                <div class="col-md-5">
+                  <table class="table-invi">
+                    <tbody>
+                      <tr>
+                        <td>Note</td>
+                      </tr>
+                      <tr>
+                        <td class="bold">
+                          We hedge 100% as we manage to lock
+                          in rates similar or lower than the contracted
+                          purchase by Procurement.
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
               </div>
             </div>
